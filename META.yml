@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                XML-RSS-FromHTML-Simple
-version:             0.01
+version:             0.02
 abstract:            Create RSS feeds for sites that don't offer them
 license:             ~
 generated_by:        ExtUtils::MakeMaker version 6.31
@@ -11,15 +11,16 @@ requires:
     Encode:                        0
     File::Temp:                    0
     HTML::Entities:                0
+    HTML::Parser:                  3.56
     HTML::TreeBuilder:             0
     HTTP::Date:                    0
     HTTP::Request::Common:         0
     Log::Log4perl:                 1
-    LWP::UserAgent:                0
+    LWP::UserAgent:                2.033
     Test::More:                    0
     URI::URL:                      0
-    XML::RSS:                      1.05
-    XML::Simple:                   0
+    XML::RSS:                      1.22
+    XML::Simple:                   2.16
 meta-spec:
     url:     http://module-build.sourceforge.net/META-spec-v1.2.html
     version: 1.2
