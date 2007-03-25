@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                XML-RSS-FromHTML-Simple
-version:             0.03
+version:             0.04
 abstract:            Create RSS feeds for sites that don't offer them
 license:             ~
 generated_by:        ExtUtils::MakeMaker version 6.31
